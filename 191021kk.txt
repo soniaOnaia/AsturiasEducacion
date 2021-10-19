@@ -1,0 +1,7 @@
+<!DOCTYPE htm>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="descripcion" content="Ejercicio HTM- Corrige los errores">
+    <title> Corrige los errores que encuentres en el documento</title>
+    
