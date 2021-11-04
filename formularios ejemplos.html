@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+       <!--comentarios sobre el tilulo--> 
+        <title>ejemplo de uso de formularios-aprenderaprogramare.com</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form action="http://www.aprenderaprogrmar.com" method="get">
+            <p>
+                <label for="Nombre">Nombre:</label>
+                <input type="text"name="nombre"id="nombre>">
+                <br>
+                <br>
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" id="apellido">
+                <br><br>
+                <label for="email"> Email:</label>
+                <input type="text"name="email"id="email>">
+                <br><br>
+                <label for="varon"> varon:</label>
+                <input type="radio" name="sexo" id="varon" value="varon">
+                <br><br>
+                <label for="mujer"> mujer:</label>
+                <input type="radio" name="sexo" id="mujer" value="mujer">
+                <br><br>
+                <label for="ciudad">ciudad</label>
+                <select name="ciudad">
+                    <option value="TE">Teruel</option>
+                    <option value="VA">Valencia</option>
+                    <option value="BA">Barcelona</option>
+                    <option value="M">Madrid</option>
+                    <option value="" selected="selected">Selecciona ciudad...</option>
+                </select>
+                <br><br>
+                <input type="submit" value="Enviar">
+                <input type="reset">
+            </p>
+        </form>        
+    </body>
+</html
