@@ -1,0 +1,8 @@
+@charset "utf-8";
+.div1{background-color: red;
+height: 120px;}
+.div2{background-color: blue;
+height: 40px;}
+.div3{background-color:green;
+height: 500px;}
+#imagen{width: 400px;}
